@@ -17,7 +17,7 @@ async def ping(ctx):
 
 @bot.command()
 async def murase(ctx):    
-    await ctx.send('fire')
+    await ctx.send(':fire:')
     
 @bot.command()
 async def yama(ctx):
