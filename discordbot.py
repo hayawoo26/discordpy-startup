@@ -23,6 +23,11 @@ async def murase(ctx):
 async def yama(ctx):
     await ctx.send('anpan')
     
+@bot.command()
+async def せやな(ctx):
+    await ctx.send('そやな')
+    
+    
 bot.run(token)
 
 
